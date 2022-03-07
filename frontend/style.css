@@ -1,84 +1,60 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: none;
-  box-sizing: border-box;
-  background: transparent;
-  font-family: inherit;
-  }
-  
-  a {
-  text-decoration: none;
-  }
-  
-  a img {
-  border: none;
-  }
-  
-  button,
-  a {
-  cursor: pointer;
-  color: inherit;
-  }
-  
-  textarea {
-  resize: none;
-  }
-  
-  button,
-  textarea,
-  select {
-  appearance: none !important;
-  border-radius: 0;
-  }
-  
-  /*End of CSS reset*/
-
 
 *{
   box-sizing: border-box;
 }
-body{
-  background-image: url('../background.jpg');
+
+body {
+  width: 100%;
+  max-width: 1920px;
+  height: 100vh;
+  background-image: url("background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   font-weight: 400;
 }
-header{
-  margin-left: 30%;
+
+header {
+  align-items: center;
+  margin-left: 40%;
   clear: left;
   font-size: 2em;
 }
-span{
+
+span {
   float: left;
   }
-form{
+
+form {
   float: left;
 }
-input{
+
+input {
   height: 2em;
   padding: .5em 0;
 }
-h2{
-  margin-left: 35%;
+
+h2 {
+  margin-left: 45%;
   margin-top: 1em;
   width: 100%;
   float: left;
 }
-img{
+
+img {
   display: block;
   max-height: 33em;
   max-width: 80%;
   margin: auto;
 }
-p{
+
+p {
   width: 80%;
   margin-left: 10%;
   font-size: 1.5em;
   background: rgba(0, 0, 0, 0.5);
 }
-iframe{
+
+iframe {
   display: none;
 }
